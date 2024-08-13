@@ -1,0 +1,42 @@
+body{
+    padding: 100px;
+}
+.submit-area{
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 11px gray;
+    width: 100vh;
+    margin: auto;
+}
+.welcome-text{
+    margin-bottom: 50px;
+}
+#transaction-area{
+    display: none;
+}
+.status{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 20px;
+    color: white;
+    
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.money-status{
+    font-size: 10vh;
+    font-weight: bold;
+}
+.transaction-here-card{
+    margin-top: 80px;
+    box-shadow: 4px 4px 11px gray;
+    padding: 40px;
+    border-radius: 10px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="E:\WebDevelopment\bootstrap-practice\download\bootstrap\css\bootstrap.min.css">
+    <title>MY BANK</title>
+</head>
+<body>
+    <div id="login-area">
+        <h1 class="text-center welcome-text">WELCOME TO MY BANK</h1>
+        <div class="submit-area">
+            <h4>Login</h4>
+            <br>
+            <input class="form-control" type="email" name="" id="" placeholder="Enter your email">
+            <br>
+            <input class="form-control" type="password" name="" id="" placeholder="Enter your password">
+            <br>
+            <button id="login-button" class="btn btn-success" type="submit">Enter</button>
+            </div>
+        </div>
+        <div id="transaction-area">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="deposit status">
+                        <h4>DEPOSIT</h4>
+                        <h1 class="money-status">$ <span id="current-deposit-amount">50</span></h1>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="withdraw status">
+                        <h4>WITHDRAW</h4>
+                        <h1 class="money-status">$ <span id="current-withdraw-amount">0</span></h1>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="balance status">
+                        <h4>BALANCE</h4>
+                        <h1 class="money-status">$ <span id="current-balance-amount">00</span></h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="transaction-here-card">
+                        <h3>DEPOSIT HERE</h3>
+                        <br>
+                        <input id="deposit-amount" class="form-control" type="number" name="" id="" placeholder="$ ENTER YOUR DEPOSIT AMOUNT">
+                        <br>
+                        <br>
+                        <button id="deposit-button" class="btn btn-success">DEPOSIT</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="transaction-here-card">
+                        <h3>WITHDRAW HERE</h3>
+                        <br>
+                        <input id="withdraw-amount" class="form-control" type="number" name="" id="" placeholder="$ ENTER YOUR WITHDRAW AMOUNT">
+                        <br>
+                        <br>
+                        <button id="withdraw-button" class="btn btn-success">WITHDRAW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="script.js"></script>
+</body>
+</html>
